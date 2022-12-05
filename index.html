@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Yorinuki</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kaisei+Opti&family=Kosugi+Maru&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Bitter:ital,wght@1,300&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-2-4/css/5-2-4.css">
+  <link type="text/css" rel="stylesheet" href="./reset.css"> <!-- 順番を間違えないこと -->
+  <link type="text/css" rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <div id="stalker"></div>
+
+<header id="l-header">
+  <!-- ローディング画面 -->
+<div id="loading">
+  <h1 class="load-text load-blink">Now Loading...</h1>
+  <video id="video" autoplay muted>
+    <source src="video/load.mp4" type="video/mp4">
+  </video>
+</div>
+
+<!-- ヘッダーメニュー -->
+<div class="scene">
+  <div class="cube">
+      <div class="cube__face front"></div>
+      <div class="cube__face back"></div>
+      <div class="cube__face top"></div>
+      <div class="cube__face right"></div>
+      <div class="cube__face bottom"></div>
+      <div class="cube__face left"></div>
+  </div>
+</div>
+<div class="p-header__index c-header js-float-menu">
+  <h1 class="p-header__index-title c-header-title"><a href="index.html" class="p-header__index-title-link c-header-title-link">Yorinuki</a></h1>
+      <nav class="p-header__index-nav c-header-nav">
+        <ul class="p-header__index-ul c-header-ul js-float-ul">
+           <li class="p-header__index-list c-headerList"><a href="#about" class="p-header__index-link c-headerLink js-float-about">ABOUT</a></li>
+           <li class="p-header__index-list c-headerList"><a href="#skills" class="p-header__index-link c-headerLink js-float-skills">SKILLS</a></li>
+           <li class="p-header__index-list c-headerList"><a href="#works" class="p-header__index-link  c-headerLink js-float-works">WORKS</a></li>
+           <li class="p-header__index-list c-headerList"><a href="#contact" class="p-header__index-link  c-headerLink js-float-contact">CONTACT</a></li>
+        </ul>
+      </nav>
+</div>
+
+<div class="p-header__index-res c-header-res">
+    <h1 class="p-header__index-title-res c-header-res-title"><a href="index.html" class="c-header-title-link-res">Yorinuki</a></h1>
+
+ <div class="item">
+   <button id="menu12" class="menu-trigger js-open-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+   </button>
+ </div>
+
+  <nav class="p-header__nav-menu js-toggle-sp-menu-target">
+    <ul class="p-header__menu">
+       <li class="p-header__menu-item"><a href="#about" class="p-header__menu-link js-menu js-float-about">ABOUT</a></li>
+       <li class="p-header__menu-item"><a href="#skills" class="p-header__menu-link js-menu js-float-skills">SKILLS</a></li>
+       <li class="p-header__menu-item"><a href="#works" class="p-header__menu-link js-menu js-float-works">WORKS</a></li>
+       <li class="p-header__menu-item"><a href="#contact" class="p-header__menu-link js-menu js-float-contact">CONTACT</a></li>
+    </ul>
+  </nav>
+
+</div>
+
+<!-- 背景動画 -->
+  <div id="video-area">
+    <h1 class="p-main-title">Let's create a new shape for the future</h1>
+    <video id="video" loop autoplay muted>
+      <source src="video/topPage.mp4" type="video/mp4">
+    </video>
+  </div>
+
+</header>
+
+<main id="l-main">
+  <div id="l-vis">
+
+  </div>
+  <section id="about" class="p-hero c-hero js-float-menu-target">
+    <div class="p-hero__about-container c-container js-fadeUpTrigger">
+    <h1 class="p-hero__title c-title">ABOUT</h1>
+    <div class="p-hero__about-keireki-container">
+      <p class="p-hero__about-keireki">サンプルテキスト</p>
+      <p class="p-hero__about-keireki">サンプルテキストサンプルテキスト</p>
+      <p class="p-hero__about-keireki">サンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+      <p class="p-hero__about-keireki">サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+    </div>
+    <div class="p-hero__about-int-container">
+      <div class="p-hero__about-img-container">
+        <img src="images/01.jpg">
+      </div>
+        <div class="p-hero__about-int">
+         <table class="p-hero__about-table">
+          <tr>
+            <th>ニックネーム</th>
+            <td>よりぬき</td>
+          </tr>
+          <tr>
+            <th>所在地</th>
+            <td>埼玉県</td>
+          </tr>
+          <tr>
+            <th>お問い合わせ</th>
+            <td>test@gmail.com</td>
+          </tr>
+         </table>
+        </div>
+      </div>
+     <div class="p-hero__about-back-title c-back-title">
+       <p>ABOUT</p>
+     </div>
+    </div>
+    <div id="l-vis-under">
+
+    </div>
+  </section>
+
+  <div id="l-vis-skill">
+
+  </div>
+
+  <section id="skills" class="p-skills c-hero">
+    <div class="p-skills__container c-container js-fadeUpTrigger">
+    <h1 class="p-skills__title c-title">SKILLS</h1>
+    <div class="p-skills__container">
+      <h3 class="p-skills__end">FRONTEND SKILLS</h3>
+      <h3 class="p-skills__skill">HTML・CSS・SASS</h3>
+      <p class="p-skills__text">HTML5/CSS3のモダンコーティング及びSASS言語を使用したレスポンシブ対応なページを作成できます。<br>また、FLOCSSベースのCSS設計も導入可能です。</p>
+      <h3 class="p-skills__skill">JavaScript・Jquery・React・Vue</h3>
+      <p class="p-skills__text">それぞれの言語を用いた動的なSPAページでの開発が可能です。</p>
+      <h3 class="p-skills__skill">Photoshop</h3>
+      <p class="p-skills__text">Photoshop又はCLIP STUDIO PAINTでの画像編集及び加工が可能です。</p>
+    </div>
+    <div class="p-skills__container">
+      <h3 class="p-skills__end">BACKEND SKILLS</h3>
+      <h3 h3 class="p-skills__skill">PHP・MYSQL</h3>
+      <p class="p-skills__text">フルスクラッチでのデーターベースを用いたサービスの制作が可能です。</p>
+      <h3 h3 class="p-skills__skill">Laravel</h3>
+      <p class="p-skills__text">フルスクラッチだけではなくフレームワークを用いた制作も可能です。</p>
+    </div>
+     <div class="p-skills__back-title c-back-title">
+       <p>SKILLS</p>
+     </div>
+    </div>
+    <div id="l-vis-skill-under">
+
+    </div>
+  </section>
+
+  <div id="l-vis-works">
+
+  </div>
+  <section id="works" class="p-works c-hero">
+    <div class="p-works__container c-container js-fadeUpTrigger">
+    <h1 class="p-works__title c-title">WORKS</h1>
+    <div class="p-works__all-img-container">
+      <div class="p-works__container-one">
+        <div class="p-works__img-container"><img class="p-works__img" src="images/001.png"></div>
+        <div class="p-works__text-container">
+          <p>猫といっしょ</p>
+        </div>
+      </div>
+      <div class="p-works__container-one">
+        <div class="p-works__img-container"><img class="p-works__img" src="images/002.png"></div>
+        <div class="p-works__text-container">
+          <p>For You</p>
+        </div>
+      </div><div class="p-works__container-one">
+        <div class="p-works__img-container"><img class="p-works__img" src="images/003.jpg"></div>
+        <div class="p-works__text-container">
+          <p>coming soon</p>
+        </div>
+      </div>
+    </div>
+
+     <div class="p-works__back-title c-back-title">
+       <p>WORKS</p>
+     </div>
+    </div>
+    <div id="l-vis-works-under">
+
+    </div>
+  </section>
+
+  <div id="l-vis-contact">
+
+  </div>
+
+  <section id="contact" class="p-contact c-hero">
+    <div class="p-contact__container c-container js-fadeUpTrigger">
+    <h1 class="p-contact__title c-title">CONTACT</h1>
+    <div class="p-contact__text-container">
+      <p>サンプルテキストサンプルテキスト</p>
+      <p>サンプルテキストサンプルテキストサンプルテキスト</p>
+    </div>
+    <div class="p-contact__btn-container">
+          <!-- Twitter -->
+          <a class="p-contact__twitter-btn c-share-btn js-sns-link" href="https://twitter.com/intent/tweet?url={{URL}}&text={{TITLE}}" target="_blank" rel="nofollow noopener noreferrer">
+          <i class="fa-brands fa-twitter"></i>Twitter</a>
+          <!-- LINE -->
+          <a class="p-contact__line-btn c-share-btn js-sns-link" href="https://social-plugins.line.me/lineit/share?url={{URL}}" target="_blank" rel="nofollow noopener noreferrer">
+          <i class="fa-brands fa-line"></i>LINE</a>
+          <!-- MAIL -->
+          <a class="p-contact__mail-btn c-share-btn js-sns-link" href="mailto:umihebi9999@gmail.com">
+          <i class="fa-solid fa-envelope"></i>Mail</a>
+    </div>
+     <div class="p-contact__back-title c-back-title">
+       <p>CONTACT</p>
+     </div>
+    </div>
+    <div id="l-vis-contact-under">
+
+    </div>
+  </section>
+
+</main>
+
+<p id="page-top"><a href="#"></a></p>
+
+<footer id="footer">
+  <nav class="p-footer">
+    <ul class="p-footer__ul">
+       <li class="p-footer__list"><a href="#about" class="p-footer__index-link js-float-about">ABOUT</a></li>
+       <li class="p-footer__list"><a href="#skills" class="p-footer__index-link js-float-skills">SKILLS</a></li>
+       <li class="p-footer__list"><a href="#works" class="p-footer__index-link js-float-works">WORKS</a></li>
+       <li class="p-footer__list"><a href="#contact" class="footer__index-link js-float-contact">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <div class="p-footer__copy">
+  Copyright © Yorinuki All Rights Reserved.
+  </div>
+
+</footer>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/5-2-4/js/5-2-4.js"></script>
+<script type="text/javascript" src="./js/footerFixed.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>
